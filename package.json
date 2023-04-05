@@ -1,0 +1,24 @@
+{
+  "name": "playwrigth-js-cucumber",
+  "version": "1.0.0",
+  "description": "The Playwright JavaScript Cucumber Framework is an open-source testing solution for modern web applications. It uses Playwright, Cucumber, and JavaScript to provide a complete setup with reusable step definitions and utility modules.",
+  "main": "index.js",
+  "scripts": {
+    "test":"cucumber-js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MotghareChetan/Playwrigth-js-cucumber.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MotghareChetan/Playwrigth-js-cucumber/issues"
+  },
+  "homepage": "https://github.com/MotghareChetan/Playwrigth-js-cucumber#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.1.0",
+    "@playwright/test": "^1.32.2"
+  }
+}
