@@ -7,9 +7,16 @@
             "src/test/features/"
         ],
         "publishQuiet": true,
+        "format": [
+            "html:test-results/cucumber-report.html",
+            "json:test-results/cucumber-report.json"
+        ],
         "dryRun": false,
         "require": [
-            "src/test/steps/*.js"
+            "src/test/steps/*.js",
+            "src/hooks/hooks.js",
+            "src/hooks/pageFixture.js",
+            "page_objects/*.js"
         ]
     }
 }
